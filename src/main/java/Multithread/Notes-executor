@@ -1,0 +1,68 @@
+ -> We can assign tasks to the ExecutorService using several methods including execute(),
+    which is inherited from the Executor interface, and also submit(), invokeAny() and invokeAll().
+
+    The execute() method is void and doesn't give any possibility to get the result of a task's
+    execution or to check the task's status (is it running):
+    executorService.execute(runnableTask);
+
+    submit() submits a Callable or a Runnable task to an ExecutorService and returns a result of type Future:
+    Future<String> future = executorService.submit(callableTask);
+
+    invokeAny() assigns a collection of tasks to an ExecutorService, causing each to run, and returns the result
+    of a successful execution of one task (if there was a successful execution):
+    String result = executorService.invokeAny(callableTasks);
+
+    invokeAll() assigns a collection of tasks to an ExecutorService, causing each to run, and returns the result
+    of all task executions in the form of a list of objects of type Future:
+    List<Future<String>> futures = executorService.invokeAll(callableTasks);
+
+    To properly shut down an ExecutorService, we have the shutdown() and shutdownNow() APIs.
+
+    The shutdown() method doesn't cause immediate destruction of the ExecutorService. It will make the ExecutorService stop accepting
+    new tasks and shut down after all running threads finish their current work:
+    executorService.shutdown();
+
+    The shutdownNow() method tries to destroy the ExecutorService immediately, but it doesn't guarantee
+    that all the running threads will be stopped at the same time:
+    List<Runnable> notExecutedTasks = executorService.shutDownNow();
+
+    One good way to shut down the ExecutorService (which is also recommended by Oracle) is to use both of
+    these methods combined with the awaitTermination() method:
+    executorService.shutdown();
+    try {
+        if (!executorService.awaitTermination(800, TimeUnit.MILLISECONDS)) {
+            executorService.shutdownNow();
+        }
+    } catch (InterruptedException e) {
+        executorService.shutdownNow();
+    }
+
+->  The Future Interface
+
+    The submit() and invokeAll() methods return an object or a collection of objects of type Future,
+    which allows us to get the result of a task's execution or to check the task's status (is it running).
+
+    The Future interface provides a special blocking method get(), which returns an actual result of the
+    Callable task's execution or null in the case of a Runnable task:
+
+    Future<String> future = executorService.submit(callableTask);
+    String result = null;
+    try {
+        result = future.get();
+    } catch (InterruptedException | ExecutionException e) {
+        e.printStackTrace();
+    }
+
+    We can use the isDone() method to check if the assigned task already processed or not.
+
+    boolean canceled = future.cancel(true);
+    boolean isCancelled = future.isCancelled();
+
+    ScheduledExecutorService executorService = Executors
+      .newSingleThreadScheduledExecutor();
+
+    Future<String> resultFuture =
+      executorService.schedule(callableTask, 1, TimeUnit.SECONDS);
+
+
+

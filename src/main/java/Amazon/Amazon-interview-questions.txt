@@ -1,0 +1,6 @@
+1. Write a program to return nearest elements from a binary search tree for input element.
+2. Write a program to find number of inversions in an array.
+3. Given an array in which elements are first increasing and then decreasing. find the maximum element in the array.
+4. Given an array of unsorted elements, find the minimum difference between any 2 elements in the array.
+5. Write a function to print the level order traversal of a binary tree in spiral form.
+6. Write a function to find the next smallest palindrome number of the given number.
