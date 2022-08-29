@@ -1,4 +1,4 @@
-package Java8;
+package Stream;
 
 import java.util.List;
 import java.util.Objects;

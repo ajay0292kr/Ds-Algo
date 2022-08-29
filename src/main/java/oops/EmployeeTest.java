@@ -1,4 +1,4 @@
-package Javapractice;
+package oops;
 
 import org.junit.Test;
 
