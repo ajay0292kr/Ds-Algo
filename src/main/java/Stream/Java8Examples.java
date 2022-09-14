@@ -1,4 +1,4 @@
-package Java8;
+package Stream;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

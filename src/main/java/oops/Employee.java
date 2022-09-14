@@ -1,4 +1,4 @@
-package Javapractice;
+package oops;
 
 import java.util.Arrays;
 import java.util.List;

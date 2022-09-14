@@ -1,5 +1,5 @@
 package Amazon;
-import java.util.*;
+
 public class Equation {
     // Find the missing value from the given equation a + b = c
     static int findMissing(String str) {
