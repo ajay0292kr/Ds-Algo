@@ -44,3 +44,5 @@ public class GcdOfTwoNumbers {
 
 // Time Complexity: O(log(max(a,b))
 // Auxiliary Space: O(log(max(a,b))
+
+// add another method
