@@ -1,0 +1,74 @@
+Build Docker image from Dockerfile
+ - docker build -t <image-name> .
+List all images
+ - docker images
+Remove an image
+ - docker rmi <image-id>
+Pull image from Docker Hub
+ - docker pull <image>
+Push image to Docker Hub
+ - docker push <images>
+
+Docker Container Commands
+Run container with port mapping
+ - docker run -p 8080:8080 <image>
+Run container in interactive mode
+ - docker run -it <image>
+List running containers
+ - docker ps
+List all containers (including stopped)
+ - docker ps -a
+Stop a container
+ - docker stop <container-id>
+Start a container
+ - docker start <container-id>
+Restart a container
+  - docker restart <container-id>
+Remove a container
+ - docker rm <container-id>
+
+Docker Compose Commands
+Start services from docker-compose.yml
+ - docker compose up
+Start services in detached mode
+ - docker compose up -d
+Stop and remove all services
+ - docker compose down
+Build services
+ - docker compose build
+Tail service logs
+ - docker compose log -f
+Show status of services
+ - docker compose ps
+
+Inspecting & Debugging
+
+View container logs
+ - docker log <container-id>
+Access container shell
+ - docker exec -it <container-id> bash
+View container config and metadata
+ - docker inspect <container-id>
+
+Real-time container resources uses
+docker stats
+
+Cleanup
+Remove unused containers/images/networks
+ - docker system prune
+Remove unused volumes
+ - docker volume prune
+Remove dangling images
+ - docker image prune
+Removed stoped container
+ - docker container prune
+
+Volumes & Networks
+List volume
+ - docker volume ps
+List network
+ - docker network ls
+Inspect a network
+ - docker network inspect <name>
+
+

@@ -1,6 +1,6 @@
 package Array;
 
-public class MaximumAverageSubarray {
+public class MaximumAverageSubArray {
     public static int maximumArraySub(int[] arr, int n, int k) {
         int max = Integer.MIN_VALUE;
         int current_sum = 0;

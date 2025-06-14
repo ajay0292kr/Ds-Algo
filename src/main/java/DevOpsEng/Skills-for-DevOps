@@ -1,0 +1,52 @@
+Core Skill Sets for a DevOps Engineer
+
+1. 🧰 Operating Systems & Scripting
+      Proficiency in Linux/Unix (file systems, networking, permissions, process control)
+      Strong in Shell scripting (Bash), Python, or Go
+2. ☁️ Cloud Platforms
+      Deep hands-on experience with at least one:
+       AWS (EC2, S3, ECS, EKS, Lambda, CloudWatch, IAM, etc.)
+       Azure, Google Cloud, or OCI
+       Infrastructure cost management & cloud security are big pluses
+
+3. 📦 Containers & Orchestration
+      Docker: Build, run, and manage containers
+      Kubernetes (K8s): Deploy and manage microservices at scale
+      Understand Helm, kubeadm, Kustomize, etc.
+4. 🛠️ CI/CD Pipelines
+      Build and maintain pipelines using:
+        Jenkins, GitHub Actions, GitLab CI, CircleCI, ArgoCD
+      Automate testing, deployment, and rollbacks
+5. 💾 Infrastructure as Code (IaC)
+      Write reproducible infrastructure using:
+        Terraform, CloudFormation, Pulumi
+      Know how to version, audit, and manage infrastructure
+
+6. 🔒 Monitoring, Logging & Observability
+     Tools like:
+        Prometheus + Grafana
+        ELK/EFK Stack (Elasticsearch, Fluentd, Kibana)
+        Datadog, New Relic, Dynatrace, Splunk
+        Set up alerts, dashboards, log aggregation
+
+7. 🔐 Security & Compliance (DevSecOps)
+      Secure CI/CD pipelines
+      Manage secrets using Vault, AWS Secrets Manager, etc.
+      Perform static/dynamic security scans (e.g., Snyk, SonarQube)
+
+8. 🔁 Source Control & GitOps
+     Strong Git skills
+     Experience with branching strategies, PR workflows
+     GitOps tools like FluxCD or ArgoCD are a plus
+
+9.  🧪 Testing & Automation
+      Automate everything: unit, integration, smoke tests
+      Support test environments and rollbacks
+
+10. 🧑‍🤝‍🧑 Soft Skills
+    Collaboration across teams (devs, QA, infra)
+    Problem-solving & root cause analysis
+    Comfortable with on-call and incident response
+
+
+

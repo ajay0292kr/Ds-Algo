@@ -9,13 +9,13 @@ public class CharCountAtSamePosition {
                     || i == (str.charAt(i) - 'A'))
             {
                 count++;
+                System.out.print(str.charAt(i)+ " ");
             }
         }
        return count;
     }
     public static void main(String[] args) {
         String str = "geeksforgeeks";
-
         System.out.println(samePositionString(str, str.length()-1));
     }
 }
