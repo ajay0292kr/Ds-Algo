@@ -1,0 +1,182 @@
+✅ 30-Day Beginner Data Science Checklist
+📅 WEEK 1: Python & Numpy Basics
+🔥 Day 1
+✅ Install Python (Anaconda recommended: https://www.anaconda.com/products/distribution)
+
+✅ Install VS Code / Jupyter Notebook.
+
+✅ Learn Python basics (variables, types, operators).
+
+👉 Python W3Schools
+
+✅ Try small exercises.
+
+🔥 Day 2
+✅ Learn if, for, while, break, continue.
+
+✅ Practice writing small functions.
+
+👉 Python Functions W3Schools
+
+🔥 Day 3
+✅ Learn lists, tuples, dictionaries, sets.
+
+✅ Play with them in Jupyter Notebook.
+
+✅ Try a mini task:
+
+Count frequency of words in a string.
+
+🔥 Day 4
+✅ Install numpy
+
+✅ Learn arrays, shape, dtype, slicing.
+
+👉 NumPy Quickstart
+
+🔥 Day 5
+✅ Learn NumPy functions: mean, sum, reshape, dot.
+
+✅ Try small matrix math examples.
+
+🔥 Day 6
+✅ Install pandas
+
+✅ Learn how to read CSV, .head(), .info(), .describe()
+
+👉 Pandas Getting Started
+
+🔥 Day 7
+✅ Explore indexing, selecting columns/rows, filtering with conditions.
+
+✅ Try small task:
+
+Load Titanic dataset & find average age.
+
+📅 WEEK 2: Pandas & Visualization
+🔥 Day 8
+✅ Learn groupby, agg, pivot_table.
+
+✅ Try aggregating Titanic by Pclass.
+
+🔥 Day 9
+✅ Learn merge, concat, dropna, fillna.
+
+✅ Try combining 2 small DataFrames.
+
+🔥 Day 10
+✅ Install matplotlib & seaborn.
+
+✅ Plot basic charts: line, bar, scatter.
+
+👉 Matplotlib Tutorial
+
+🔥 Day 11
+✅ Learn seaborn histplot, boxplot, heatmap.
+
+✅ Plot histogram of age, heatmap of Titanic correlation.
+
+🔥 Day 12
+✅ Do a small EDA on Titanic data:
+
+Find survival rate by gender, class.
+
+Make some plots.
+
+🔥 Day 13
+✅ Explore seaborn pairplot with Iris dataset.
+
+✅ Try a mini project: visualize relationships.
+
+🔥 Day 14
+✅ Save your Jupyter Notebook & push to GitHub.
+
+📅 WEEK 3: Statistics & Machine Learning
+🔥 Day 15
+✅ Learn mean, median, mode, std, variance.
+
+✅ Try with numpy & pandas.
+
+🔥 Day 16
+✅ Learn correlation & covariance.
+
+✅ Plot scatterplots to explore relationships.
+
+🔥 Day 17
+✅ Learn hypothesis testing basics, p-values, confidence intervals.
+
+✅ 👉 Khan Academy
+
+🔥 Day 18
+✅ Install scikit-learn
+
+✅ Load a dataset, try train_test_split.
+
+🔥 Day 19
+✅ Fit a simple linear regression (predict age from fare or similar).
+
+✅ Print metrics: MAE, R^2.
+
+🔥 Day 20
+✅ Try logistic regression on Titanic to predict Survived.
+
+✅ Print accuracy, confusion_matrix.
+
+🔥 Day 21
+✅ Explore DecisionTreeClassifier.
+
+✅ Visualize the tree using plot_tree.
+
+📅 WEEK 4: SQL & More Projects
+🔥 Day 22
+✅ Learn SQL SELECT, WHERE.
+
+✅ 👉 SQLBolt
+
+🔥 Day 23
+✅ Learn GROUP BY, HAVING.
+
+✅ Try small exercises on SQLBolt.
+
+🔥 Day 24
+✅ Learn JOINs.
+
+✅ Try sample join queries.
+
+🔥 Day 25
+✅ Build a mini project:
+
+Example: Analyze COVID dataset (cases by country, plot trends).
+
+🔥 Day 26
+✅ Build a recommendation system (basic cosine similarity on movies dataset).
+
+👉 Kaggle Movies Dataset
+
+🔥 Day 27
+✅ Learn basic git: init, add, commit, push.
+
+✅ Push your projects to GitHub.
+
+🔥 Day 28
+✅ Create a good README.md for your project.
+
+🔥 Day 29
+✅ Create Kaggle profile, explore kernels.
+
+✅ Fork someone’s notebook, try to improve it.
+
+🔥 Day 30
+✅ Plan next 30 days:
+
+More ML models, try neural networks, or start Kaggle competitions.
+
+✅ Datasets for practice
+https://www.kaggle.com/datasets
+
+https://www.data.gov/
+
+
+
+
+

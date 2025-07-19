@@ -22,6 +22,5 @@ public class GroupingBy {
         ).forEachOrdered(e->finalMap.put(e.getKey(), e.getValue()));
 
         System.out.println(finalMap);
-
     }
 }
