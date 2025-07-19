@@ -12,7 +12,7 @@ public class SubStringWordCount {
         int wordCount = words.length;
         int wordLen = words[0].length();
         int stringLen = s.length();
-        int expectedSubstrLen = wordCount * wordLen;
+        int expectedSubStrLen = wordCount * wordLen;
 
         // Populate the dictionary to see how many word copies
         // we should expect (there may be duplicates).
@@ -62,7 +62,7 @@ public class SubStringWordCount {
 
                     // If, together with the current word, we get a chain
                     // of the expected length, then we have found an answer.
-                    if (j - substringStart + wordLen == expectedSubstrLen) {
+                    if (j - substringStart + wordLen == expectedSubStrLen) {
                         answer.add(substringStart);
                     }
 
