@@ -182,6 +182,115 @@ Core Focus Areas for Java Developers (2025+)
  experiment with LLM APIs
 
 
+1. Text Generation (LLMs like ChatGPT)
+   Tools                                                                 Description
+   ChatGPT (OpenAI)                                                      Conversational AI using GPT models (GPT‑4, GPT‑3.5)
+   Claude (Anthropic)                                                    Safe, ethical, long-context AI assistant - Paid
+   Gemini (Google)                                                       Formerly Bard; Google's answer to ChatGPT
+   Mistral                                                               Open-source, fast, local-friendly language models
+   Cohere Command R                                                      Focused on enterprise RAG and retrieval
+   LaMA (Meta)                                                           Open LLMs from Meta, foundation for many local tools
+   Perplexity.ai                                                         Chatbot + search engine with citations
+   Pi (Inflection)                                                       Personal AI with an empathetic tone
+
+2. Image Generation
+   DALL·E (OpenAI)                                                       Text-to-image generation
+   Midjourney                                                            High-quality artistic image generation via Discord
+   Stable Diffusion (Stability AI)                                       Open-source image generator
+   Adobe Firefly                                                         Image generation integrated with Adobe tools
+   Leonardo.ai                                                           Fast generation with fine-tuning options
+   DreamStudio                                                           Stable Diffusion official frontend
+   Runway ML                                                             Includes text-to-image and video tools
+   Craiyon (DALL·E Mini)                                                 Lightweight, free image generator
+
+3. Code Generation
+   GitHub Copilot (OpenAI + Microsoft)                                   AI pair programmer in VS Code
+   CodeWhisperer (Amazon)                                                Code generation with security and AWS integration
+   Cursor                                                                AI-powered coding editor
+   Tabnine                                                               Autocomplete tool with AI suggestions
+   Replit Ghostwriter                                                    AI code assistant in cloud IDE
+   ChatGPT / Claude / Gemini                                             Also very strong in code generation via chat
+
+4. Audio & Music Generation
+   ElevenLabs                                                            Realistic AI voice cloning and TTS
+   Voicemod AI                                                           Real-time AI voice changer
+   MusicGen (Meta)                                                       Text-to-music model
+   Soundraw                                                              AI music composition tool for creators
+   Beatoven.ai                                                           Royalty-free AI-generated music for videos
+   Riffusion                                                             Music generation using spectrograms
+
+5. Video Generation
+   Sora (OpenAI)                                                         Text-to-video (not public yet)
+   Runway Gen-2                                                          Text-to-video and image-to-video
+   Pika Labs                                                             AI video generation for creators
+   Synthesia                                                             AI avatar + video narration
+   DeepBrain                                                             Avatar-based explainer videos
+   Colossyan                                                             Human-like presenters in generated videos
+
+6. Multimodal (Text + Image + More)
+   GPT-4o (OpenAI)                                                       Combines text, image, audio, and code understanding
+   Gemini 1.5 (Google)                                                   Multimodal reasoning, long context
+   Claude 3 (Anthropic)                                                  Handles text, image, code in chat
+   Perplexity Pages                                                      Generate full research reports with sources
+   LLaVA, MiniGPT-4                                                      Open-source multimodal models
+   Figma AI                                                              Generates UI from text prompts
+
+Bonus: Build Your Own Agents
+  LangChain                                                              Framework to build LLM apps (RAG, agents)
+  AutoGPT                                                                Autonomous agent using GPT-4
+  BabyAGI                                                                Task management + planning agent
+  Flowise / Dust / Superagent                                            No-code or low-code AI workflow builders
+
+
+12 MCP Servers You Can Use in 2025
+
+MCP (Model Context Protocol) is an open standard that simplifies how AI models, particularly LLMs,
+interact with external data sources, tools, and services.
+An MCP server acts as a bridge between these AI models and external tools. Here are the top MCP servers:
+
+1 - File System MCP Server
+    Allows the LLM to directly access the local file system to read, write, and create directories.
+
+2 - GitHub MCP Server
+    Connects Claude to GitHub repos and allows file updates, code searching.
+
+3 - Slack MCP Server
+    MCP Server for Slack API, enabling Claude to interact with Slack workspaces.
+
+4 - Google Maps MCP Server
+    MCP Server for Google Maps API.
+
+5 - Docker MCP Server
+    Integrate with Docker to manage containers, images, volumes, and networks.
+
+6 - Brave MCP Server
+    Web and local search using Brave’s Search API.
+
+7 - PostgreSQL MCP Server
+    An MCP server that enables LLM to inspect database schemas and execute read-only queries.
+
+8 - Google Drive MCP Server
+    An MCP server that integrates with Google Drive to allow reading and searching over files.
+
+9 - Redis MCP Server
+    MCP Server that provides access to Redis databases.
+
+10 - Notion MCP Server
+     This project implements an MCP server for the Notion API.
+
+11 - Stripe MCP Server
+     MCP Server to interact with the Stripe API.
+
+12 - Perplexity MCP Server
+    An MCP Server that connects to Perplexity’s Sonar API for real-time search.
+
+
+
+Ollama model is free.
+
+
+
+
 
 
 

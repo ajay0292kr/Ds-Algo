@@ -1,0 +1,26 @@
+1. The 20 Core DSA Patterns (with Example Problems)
+   Pattern                                          Concept                                                 Example Questions
+  1. Sliding Window                                Subarrays/substrings with                                Max sum subarray, Longest
+                                                   conditions                                               substring without repeating chars
+
+  2. Two Pointers                                  Sorted arrays, moving from ends                           Pair sum, Remove duplicates, Container
+                                                                                                             with most water
+  3. Fast & Slow Pointers                           Detect cycles, midpoints                                 Linked List cycle, Middle element
+  4. Merge Intervals                                Combine overlapping intervals                            Merge intervals, Insert interval
+  5. Cyclic Sort                                    Sorting numbers from range 1–N                           Find missing number, Find duplicate
+  6. In-place Reversal of LinkedList                Reverse in subgroups                                     Reverse list, Reverse k-group
+  7. Tree BFS                                       Level order traversal                                    Level order, Minimum depth
+  8. Tree DFS                                       Recursive traversal                                      Path sum, Diameter of tree
+  9. Two Heaps                                      Median, scheduling                                       Find median from stream
+  10. Subsets / Backtracking                        Generate combinations                                    Subsets, Permutations, N-Queens
+  11. Modified Binary Search                        Non-trivial searches                                     Search rotated array, Peak element
+  12. Bit Manipulation                              XOR tricks                                               Single number, Missing number
+  13. Dynamic Programming(DP)                       Overlapping subproblems                                  Knapsack, Longest Common Subsequence
+  14. Top K Elements                                Use heap to find Kth                                     Kth largest, Top K frequent elements
+  15. Graph BFS/DFS                                 Connectivity/pathfinding                                  Number of islands, Clone graph
+  16. Union-Find (Disjoint Set)                     Connectivity groups                                      Redundant connection, Connected components
+  17. Topological Sort                              Dependency ordering                                      Course schedule, Alien dictionary
+  18. Trie / Prefix Tree                            String prefix problems                                   Word search, Autocomplete
+  19. Greedy Algorithms                             Optimize step-by-step                                    Activity selection, Huffman coding
+  20. Kadane / Prefix Sum                           Subarray sums                                            Maximum subarray, Subarray sum equals K
+
