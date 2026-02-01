@@ -1,0 +1,203 @@
+  Data Structure Problem Patterns for Interviews
+
+   1. Sliding Window / Two Pointers
+      Used when you deal with subarrays or substrings.
+      Maximum/Minimum sum subarray of size K
+      Longest substring with K distinct characters
+      Longest subarray with given sum (non-negative vs with negatives → hashmap
+      Minimum window substring (classic hard problem)
+      Trapping Rain Water
+      👉 Skills: Expand + shrink window intelligently.
+
+   2. Prefix Sum / Hashing
+      Used when we need to query sums or counts quickly.
+      Subarray sum equals K
+      Longest subarray with 0 sum
+      Count subarrays divisible by K
+      Maximum subarray sum (Kadane’s Algorithm)
+      Range sum queries (Fenwick/Segment Tree as advanced extension)
+      👉 Skills: Store prefix sums in HashMap.
+
+   3. Stack Based Problems
+      Classic interview favorites for "Next/Previous" type queries.
+      Next Greater Element
+      Next Smaller Element
+      Largest Rectangle in Histogram
+      Stock Span Problem
+      Valid Parentheses
+      Min Stack
+     👉 Skills: Use monotonic stacks (increasing/decreasing).
+
+   4. Queue / Deque Problems
+      Important for streaming/window problems.
+      Implement Stack using Queues / Queue using Stacks
+      Sliding Window Maximum (Deque)
+      Rotten Oranges (BFS)
+      First non-repeating character in a stream
+      👉 Skills: BFS + Deque tricks.
+
+   5. Greedy Problems
+       Always about local choices → global optimum.
+       Activity Selection (interval scheduling)
+       Minimum Platforms (train arrival/departure)
+       Job Sequencing Problem
+       Minimize the Heights I & II
+       Huffman Encoding
+       👉 Skills: Sort + choose smartly.
+
+   6. Heap / Priority Queue
+      When you need k-th largest/smallest or dynamic median.
+      Kth largest/smallest element
+      Merge K sorted arrays
+      Top K frequent elements
+      Connect ropes with minimum cost
+      Median of Data Stream
+      👉 Skills: MinHeap/MaxHeap usage.
+
+   7. Binary Search Variants
+      Goes beyond searching — think on answer space.
+      Binary Search in Rotated Sorted Array
+      Find Peak Element
+      Minimum in Rotated Sorted Array
+      Search in 2D Matrix
+      Allocate Minimum Pages / Painter’s Partition
+      Aggressive Cows (maximizing minimum distance)
+      👉 Skills: "Search space" binary search, not just array.
+
+   8. Linked List Patterns
+      Reverse a Linked List (iterative + recursive)
+      Detect cycle (Floyd’s cycle detection)
+      Merge two sorted lists
+      LRU Cache (LinkedHashMap or custom Doubly Linked List + HashMap)
+      Flatten a linked list
+      👉 Skills: Pointer manipulation.
+
+   9. Tree / Binary Search Tree
+      Traversals (Inorder, Preorder, Postorder, Level-order)
+      Lowest Common Ancestor
+      Diameter of Binary Tree
+      Maximum Path Sum
+      Serialize and Deserialize a Tree
+      BST validation / insert / delete
+      👉 Skills: DFS + recursion.
+
+   10. Graph Patterns
+       BFS / DFS traversal
+       Detect cycle (directed & undirected)
+       Topological sort (Kahn’s + DFS)
+       Shortest Path: Dijkstra, Bellman-Ford
+       Minimum Spanning Tree: Kruskal / Prim
+       Bipartite Graph check
+       Word Ladder (BFS)
+       👉 Skills: Think in adjacency list + visited set.
+
+   11. Dynamic Programming (DP)
+       Very important in advanced rounds.
+       0/1 Knapsack & variants (Subset sum, Partition equal subset sum)
+       Longest Common Subsequence / Substring
+       Matrix Chain Multiplication
+       Coin Change (min & count ways)
+       Unbounded Knapsack
+       DP on Strings (Edit Distance, Palindrome Partitioning)
+       DP on Grids (Unique paths, Minimum path sum)
+       👉 Skills: Recursion → Memoization → Tabulation.
+
+   12. Tries & Strings
+       Implement Trie (Insert, Search, Prefix)
+       Longest Prefix Matching
+       Word Break Problem
+       Longest Palindromic Substring
+       Rabin-Karp / KMP substring search
+       👉 Skills: Prefix tree & string DP.
+
+   13. Backtracking / Recursion Patterns
+       Used when exploring all possibilities with pruning.
+       N-Queens
+       Rat in a Maze
+       Sudoku Solver
+       Word Search
+       Generate Parentheses
+       Subsets / Permutations
+       👉 Pattern: Choose → Explore → Backtrack.
+
+   14. Union-Find (Disjoint Set Union - DSU)
+       Used for connectivity problems in graphs.
+       Number of Islands II
+       Kruskal’s MST
+       Accounts Merge
+       Connected Components in Graph
+       👉 Pattern: parent[] + rank[] + path compression.
+
+   15. Bit Manipulation Patterns
+       Handy for optimization in subset/XOR problems.
+       Single Number (find unique element)
+       Subsets using Bitmasking
+       Maximum XOR of two numbers in array
+       Count set bits
+       Power of Two / Fast exponentiation
+       👉 Pattern: Bitmask representation of subsets.
+
+   16. Matrix / Grid Traversal
+       Very common in BFS/DFS/DP interviews.
+       Number of Islands
+       Word Search in 2D board
+       Rotting Oranges
+       Spiral Matrix traversal
+       Minimum Path Sum (DP)
+       👉 Pattern: Directions array [(0,1), (1,0), (0,-1), (-1,0)].
+
+   17. Intervals & Sorting Patterns
+       When given ranges [start, end].
+       Merge Intervals
+       Insert Interval
+       Meeting Rooms I & II
+       Minimum Arrows to Burst Balloons
+       Maximum Overlapping Intervals
+       👉 Pattern: Sort by start time, then process greedily.
+   18. Monotonic Data Structures
+       Already saw stacks, but as a general pattern:
+       Monotonic Queue → Sliding Window Maximum
+       Monotonic Stack → Next Greater / Smaller, Rain Water
+       👉 Pattern: Maintain increasing/decreasing structure.
+
+   19. Top-K / Frequency Counting
+       Whenever asked about most frequent / largest / smallest.
+       Top K Frequent Elements
+       K Closest Points to Origin
+       Sort Characters by Frequency
+       Reorganize String
+       👉 Pattern: HashMap + Heap.
+
+   20. Game Theory / Math Patterns
+       Less frequent but seen in fintech / system design DS rounds.
+       Nim Game / Grundy Numbers
+       Josephus Problem
+       GCD/LCM problems
+       Modular Exponentiation (pow with mod)
+       Fast Fibonacci (matrix exponentiation)
+
+   21. Advanced Graph Patterns
+       For harder interviews:
+       Bridges and Articulation Points (Tarjan’s Algorithm)
+       Strongly Connected Components (Kosaraju / Tarjan)
+       Shortest Path with constraints (0-1 BFS, Dijkstra with states)
+       Network Delay Time
+       Minimum Cost to Connect Cities
+
+   22. Segment Tree / Fenwick Tree
+       When dealing with range queries.
+       Range Sum Query (mutable)
+       Range Minimum Query
+       Count Inversions (BIT)
+       Lazy Propagation
+   23. Reservoir Sampling / Randomization
+       Random Pick Index
+       Shuffle an array
+       Online algorithms for unknown input size
+   24. Design / System Patterns (DS + OOP)
+       For Java/Spring Boot interviews, they love these:
+       LRU Cache / LFU Cache
+       Rate Limiter
+       Autocomplete System (Trie + Heap)
+       Notification System (Publisher-Subscriber)
+       Design TinyURL / Twitter Feed

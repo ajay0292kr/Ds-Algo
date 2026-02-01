@@ -1,0 +1,7 @@
+1. You inherit a legacy Spring Boot service. It’s running fine, but takes 20s to respond under load.
+How do you approach performance tuning?
+2. Users report intermittent 500 errors in production, but logs look clean. How do you debug this?
+3. You’re asked to design a backend service for handling 10M+ user requests per day. You have limited infra budget. What’s your plan?
+4. “Your CI/CD pipeline suddenly slows down from 5 mins to 40 mins. How do you debug?
+5. Your microservice consumes messages from Kafka. Suddenly, consumer lag keeps increasing. What steps do you take?
+6. A payment API you integrate with has a 2% failure rate under peak traffic. How do you ensure reliable customer experience?

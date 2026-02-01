@@ -1,0 +1,23 @@
+1. Financial Debit Transaction
+   ISO Code: 0200 (request), 0210 (response)
+
+2. Financial Credit Transaction
+   ISO Code: 0200 + transaction type indicates credit
+
+3. Balance Inquiry
+   ISO Code: 0100 (request), 0110 (response)
+
+4. Pre-Authorization (Pre-auth)
+   ISO Code: 0100 or 0200 (based on config)
+
+5. Pre-auth Completion / Advice
+   ISO Code: 0220 (Advice), 0221 (Response)
+
+6. Reversal (Full/Partial)
+   ISO Code: 0400 (Reversal request), 0410 (Response)
+
+7. Pre-auth Reversal
+   Purpose: Cancel the pre-auth hold.
+   ISO Code: 0400 with reason code for reversal of pre-auth
+
+8.
