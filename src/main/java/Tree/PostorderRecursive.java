@@ -45,17 +45,5 @@ public class PostorderRecursive {
             System.out.print(stack2.pop().val + " ");
         }
     }
-    // using one stack
-    public static void postorder(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode curr = root;
-        TreeNode lastVisited = null;
-
-        while (curr != null || !stack.isEmpty()) {
-            if (curr != null) {
-                stack.
-            }
-        }
-    }
 }
 

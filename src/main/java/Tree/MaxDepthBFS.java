@@ -15,7 +15,7 @@ public class MaxDepthBFS {
             int size = queue.size();
             depth++;
 
-            while (size-- > 0) {
+            while (!queue.isEmpty() && size-- > 0) {
                 TreeNode node = queue.poll();
                 if (node.left != null) queue.offer(node.left);
                 if (node.right != null) queue.offer(node.right);
